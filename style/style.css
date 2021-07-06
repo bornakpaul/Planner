@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom,#68eacc 0%, #497be8 100%);
+    background: #644bff;
 }
 .wrapper{
     margin: 120px auto;
@@ -22,6 +22,7 @@ body{
 .wrapper header{
     font-size: 30px;
     font-weight: 600;
+    color: #644bff;
 }
 
 .wrapper .inputField{
@@ -46,7 +47,7 @@ body{
     height: 100%;
     border: none;
     outline: none;
-    background: rgb(78, 170, 245);
+    background: #644bff;
     color: white;
     font-size: 22px;
     cursor: pointer;
@@ -107,7 +108,7 @@ body{
     
     border: none;
     outline: none;
-    background: rgb(78, 170, 245);
+    background: #644bff;
     color: white;
     font-size: 14px;
     cursor: pointer;
@@ -123,4 +124,8 @@ body{
     opacity: 1;
     pointer-events: auto;
     transition: all 0.2s ease-in-out;
+}
+
+.footer .pendingNumber{
+    color: #644bff;
 }
